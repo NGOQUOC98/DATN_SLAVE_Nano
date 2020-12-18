@@ -323,17 +323,6 @@ F 3 "" H 8600 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR019
-U 1 1 5FB7DB02
-P 8600 750
-F 0 "#PWR019" H 8600 600 50  0001 C CNN
-F 1 "+5V" V 8615 878 50  0000 L CNN
-F 2 "" H 8600 750 50  0001 C CNN
-F 3 "" H 8600 750 50  0001 C CNN
-	1    8600 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR020
 U 1 1 5FB7DE31
 P 8600 1050
@@ -1202,5 +1191,29 @@ F 2 "jack_dc:jack_DC" H 900 5950 50  0001 C CNN
 F 3 "~" H 900 5950 50  0001 C CNN
 	1    900  5950
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FDD6459
+P 5150 1000
+F 0 "#PWR?" H 5150 850 50  0001 C CNN
+F 1 "+3.3V" H 5165 1173 50  0000 C CNN
+F 2 "" H 5150 1000 50  0001 C CNN
+F 3 "" H 5150 1000 50  0001 C CNN
+	1    5150 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1000 5150 1050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FDDE1E2
+P 8600 750
+F 0 "#PWR?" H 8600 600 50  0001 C CNN
+F 1 "+3.3V" V 8615 878 50  0000 L CNN
+F 2 "" H 8600 750 50  0001 C CNN
+F 3 "" H 8600 750 50  0001 C CNN
+	1    8600 750 
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
