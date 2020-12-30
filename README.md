@@ -1,1 +1,1 @@
-# SLAVE_nano
+#ĐATN_2020
